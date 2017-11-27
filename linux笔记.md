@@ -21,11 +21,16 @@ linux笔记
   /dev: device,设备目录,在linux下一切皆文件 硬盘，显卡，显示器。。。都被抽象成一个文件，放在/dev：目录下。 
   /lib：linux系统运行时候需要加载的一些动态库  
   /mnt: 手动的挂载目录  
-  /media  
-  /root  
-  /usr  
-  /etc  
-  /opt  
+  /media：外设的自动挂载目录  
+  /root：linux的超级用户的家目录  
+  /usr：unix system resource 资源目录  
+  　　头文件  -stdio.h stdlib.h  
+  　　游戏  
+  　　用户安装的应用程序 /usr/local  
+  /etc: 存放配置文件  
+  　　/etc/passed  
+  　　/etc/group  
+  /opt:安装第三方的应用程序   
   /home  
   /temp  
   
